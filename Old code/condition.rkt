@@ -1,0 +1,5 @@
+(cond ((EQ? '* (car '(+ 3 4))) (display "It is mult"))
+      ((EQ? '+ (car '(+ 3 4))) (display "It is addition"))
+      ((EQ? '- (car '(+ 3 4))) (display "It is sustraction"))
+      ((EQ? '/ (car '(+ 3 4))) (display "It is division"))
+      )
